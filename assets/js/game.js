@@ -1,4 +1,7 @@
-﻿var fightOrSkip = function() {
+﻿//Test to make sure the window is open
+window.alert("This is an alert! JavaScript is running!");
+
+var fightOrSkip = function() {
     // ask user if they'd like to fight or skip using  function
     var promptFight = window.prompt('Would you like FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
   
